@@ -1,0 +1,47 @@
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Header Section styles */
+.header-container {
+    background-image: url('../images/banner/banner3.png');
+    height: 600px;
+    width: 100%;
+    background-position: center; 
+}
+
+.header-data {
+    width: 500px;
+    text-align: right;
+    padding-top: 90px;
+    padding-left: 750px;
+}
+#header-title {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+#header-description {
+    color: hwb(0 100% 0% / 0.644);
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+#contact-btn {
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    background-color :white;
+    border-radius: 5px;
+    border: none;
+}
+
+
+

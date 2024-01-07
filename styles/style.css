@@ -43,5 +43,39 @@
     border: none;
 }
 
+/* main section */
+.main-section {
+    padding: 100px;
+}
+.person-details-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.details-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+    margin-bottom: 24px;
+}
+.details-description {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    width: 416px;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+ul li img {
+    margin-right: 8px;
+}
 
 
